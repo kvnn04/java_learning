@@ -1,0 +1,48 @@
+que son las variables en java?
+
+Una variable es un espacio de memoria que se utiliza para guardar un valor. El valor guardado en 
+una variable puede cambiar durante la ejecución del programa, lo que permite realizar cálculos,
+almacenar resultados, tomar decisiones, etc.
+
+para que sirven las variables en java?
+    -almacenar
+    -manipular
+    -facillitar la reutilizacion de datos
+    -gestionar el flujo del programa
+    -optimizar el codigo
+
+como se usa?
+    -type variableName = value;
+
+ejemplos de variables en java:
+    (algunas)
+    -String : stores text, such as "Hello". String values are surrounded by double quotes
+    -int : stores integers (whole numbers), without decimals, such as 123 or -123
+    -float : stores floating point numbers, with decimals, such as 19.99 or -19.99
+    -char : stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+    -boolean : stores values with two states: true or false
+    -byte byteVar = 127;              // Entero de 8 bits
+    -short shortVar = 32000;          // Entero de 16 bits
+    -long longVar = 100000000L;      // Entero de 64 bits
+
+variables FINAL:
+    If you don't want others (or yourself) to overwrite existing values, use the final keyword
+    (this will declare the variable as "final" or "constant", which means unchangeable and read-only):
+
+    como se usa?:  
+        - final type nombreVariable = valor
+
+Data types are divided into two groups:
+
+Primitive data types - includes byte, short, int, long, float, double, boolean and char
+Non-primitive data types - such as String, Arrays and Classes
+
+Non-primitive data types are called reference types because they refer to objects.
+
+The main differences between primitive and non-primitive data types are:
+
+Primitive types in Java are predefined and built into the language, while non-primitive types are created by the programmer (except for String).
+Non-primitive types can be used to call methods to perform certain operations, whereas primitive types cannot.
+Primitive types start with a lowercase letter (like int), while non-primitive types typically starts with an uppercase letter (like String).
+Primitive types always hold a value, whereas non-primitive types can be null.
+
