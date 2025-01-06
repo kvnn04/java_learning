@@ -1,0 +1,12 @@
+Use the if statement to specify a block of Java code to be executed if a condition is true.
+
+if (condition) {
+  // block of code to be executed if the condition is true
+}
+
+
+Short Hand if...else
+
+There is also a short-hand if else, which is known as the ternary operator because it consists of three operands.
+
+It can be used to replace multiple lines of code with a single line, and is most often used to replace simple if else statements:
